@@ -30,22 +30,22 @@ B=${#bademojis[@]}
 G="$goodemojis[$G]"
 B="$bademojis[$B]"
 
-if [[ -n "$MY_RAFIKI_GOOD" ]]; then
-  if [[ -n "$good[$MY_RAFIKI_GOOD]" ]]; then
-    RAFIKI_GOOD=good[$MY_RAFIKI_GOOD]
+if [[ -n "$MY_GOOD_RAFIKI" ]]; then
+  if [[ -n "$good[$MY_GOOD_RAFIKI]" ]]; then
+    RAFIKI_GOOD=good[$MY_GOOD_RAFIKI]
   else
-    echo "$fg_bold[red]$MY_RAFIKI_GOOD is invalid, setting a random one..."
+    echo "$fg_bold[red]$MY_GOOD_RAFIKI is invalid, setting a random one..."
     RAFIKI_GOOD="$good[$G]"
   fi
 else
   RAFIKI_GOOD="$good[$G]"
 fi
 
-if [[ -n "$MY_RAFIKI_BAD" ]]; then
-  if [[ -n "$bad[$MY_RAFIKI_BAD]" ]]; then
-    RAFIKI_BAD=bad[$MY_RAFIKI_BAD]
+if [[ -n "$MY_BAD_RAFIKI" ]]; then
+  if [[ -n "$bad[$MY_BAD_RAFIKI]" ]]; then
+    RAFIKI_BAD=bad[$MY_BAD_RAFIKI]
   else
-    echo "$fg_bold[red]$MY_RAFIKI_BAD is invalid, setting a random one..."
+    echo "$fg_bold[red]$MY_BAD_RAFIKI is invalid, setting a random one..."
     RAFIKI_BAD="$bad[$B]"
   fi
 else
