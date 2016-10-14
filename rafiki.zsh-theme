@@ -1,8 +1,43 @@
 declare -A good
 declare -A bad
 
-goodemojis=( fire muscle pointright facepunch smile sunglasses thumbsup okhand winking vforvictory )
-bademojis=( rollingeyes pouting confused flushed middlefinger worried nervous scream )
+goodemojis=(
+  fire
+  muscle
+  pointright
+  facepunch
+  smile
+  sunglasses
+  thumbsup
+  okhand
+  winking
+  vforvictory
+  moon
+  sun
+  clap
+  geek
+  beer
+  cheers
+  handsup
+)
+
+bademojis=(
+  rollingeyes
+  pouting
+  confused
+  flushed
+  middlefinger
+  worried
+  thumbsdown
+  hushed
+  triumph
+  grimacing
+  nervous
+  scream
+  skull
+  expressionless
+  frowning
+)
 
 good[fire]=🔥
 good[muscle]=💪
@@ -12,8 +47,16 @@ good[smile]=😄
 good[sunglasses]=😎
 good[thumbsup]=👍
 good[okhand]=👌
-good[winking]=😉 
+good[winking]=😉
 good[vforvictory]=✌️
+good[clap]=👏
+good[moon]=🌝
+good[sun]=🌞
+good[geek]=🤓
+good[beer]=🍺
+good[cheers]=🍻
+good[handsup]=🙌
+
 
 bad[rollingeyes]=🙄
 bad[pouting]=😡
@@ -23,6 +66,13 @@ bad[middlefinger]=🖕
 bad[worried]=😟
 bad[nervous]=😰
 bad[scream]=😱
+bad[thumbsdown]=👎
+bad[hushed]=😯
+bad[triumph]=😤
+bad[grimacing]=😬
+bad[skull]=💀
+bad[expressionless]=😑
+bad[frowning]=☹️
 
 # Get size
 G=${#goodemojis[@]}
