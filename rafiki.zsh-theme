@@ -1,7 +1,6 @@
 declare -A good
 declare -A bad
 
-good[fire]=🔥
 good[muscle]=💪
 good[pointright]=👉
 good[facepunch]=👊
@@ -18,6 +17,7 @@ good[geek]=🤓
 good[beer]=🍺
 good[cheers]=🍻
 good[handsup]=🙌
+good[skull]=💀
 
 
 bad[rollingeyes]=🙄
@@ -32,7 +32,6 @@ bad[thumbsdown]=👎
 bad[hushed]=😯
 bad[triumph]=😤
 bad[grimacing]=😬
-bad[skull]=💀
 bad[expressionless]=😑
 bad[frowning]=☹️
 
