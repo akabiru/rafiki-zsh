@@ -71,7 +71,8 @@ If you've seen the American animated epic musical film: **Lion King** the name `
 
 Introducing _Rafiki_
 
-![rafiki](https://a.dilcdn.com/bl/wp-content/uploads/sites/25/2015/01/Rafiki-The-Lion-King-3.jpeg)
+![rafiki](https://i.imgur.com/mu2h8fs.jpg)
+
 ### Contributing
 
 Feel free to contribute, even if it's to add an emoji. :wink: Just fork it :fork_and_knife: and raise a pull request.
